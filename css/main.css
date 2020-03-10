@@ -1,0 +1,96 @@
+.header_style{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    background-color: rgb(29, 28, 28);
+}
+
+.section_style{
+    background-color: lightyellow;
+    height: auto;
+}
+
+.menu_style{
+    position: relative;
+    float: left;
+    top: 26%;
+    margin-left: 3%;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #969090
+}
+.menu_style:hover {
+    color: #f1f1f1;
+}
+
+.lang_option_style{
+    position: relative;
+    float: right;
+    top: 32%;
+    margin-right: 3%;
+    height: 50px;
+}
+
+
+/* sidebar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav p {
+    padding: 8px 8px 1px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav article {
+    padding: 8px 8px 8px 13px;
+    margin-left: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+}
+.sidenav div {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.sidenav p:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
